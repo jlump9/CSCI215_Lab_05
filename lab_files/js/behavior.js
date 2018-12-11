@@ -35,7 +35,7 @@ var liTextNode1 = document.createTextNode("Read Assignment");
 var liTextNode2 = document.createTextNode("Code Assignment");
 
     liNode1.appendChild(liTextNode1);
-    liNode1.appendChild(liTextNode2);
+    liNode2.appendChild(liTextNode2);
 
     olNode.appendChild(liNode1);
     olNode.appendChild(liNode2);
@@ -49,7 +49,7 @@ var liTextNode2 = document.createTextNode("Code Assignment");
 var imgNode = document.createElement('img');
 var srcAttr = document.createAttribute('src');
 
-    scrAttr.value = "http://munsellb.people.cofc.edu/img/prettypicture.jpg";
+    srcAttr.value = "http://munsellb.people.cofc.edu/img/prettypicture.jpg";
 
     imgNode.setAttributeNode(srcAttr);
     divNode.appendChild(imgNode);
